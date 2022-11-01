@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="center_loc_pkg" type="center_loc_node" name="center_loc_node"/>
+    <node pkg="depth_pkg" type="depth_node" name="depth_node" output="screen"/>
+</launch>
